@@ -14,6 +14,9 @@
 		B16BF2EE28FFF6D50094252C /* SpotifyFavs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B16BF2EC28FFF6D50094252C /* SpotifyFavs.xcdatamodeld */; };
 		B16BF2F028FFF6D70094252C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16BF2EF28FFF6D70094252C /* Assets.xcassets */; };
 		B16BF2F328FFF6D70094252C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16BF2F128FFF6D70094252C /* LaunchScreen.storyboard */; };
+		B16BF2FC28FFFB2E0094252C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BF2FB28FFFB2E0094252C /* HomeViewController.swift */; };
+		B16BF2FE290000720094252C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BF2FD290000720094252C /* AccountViewController.swift */; };
+		B16BF300290000890094252C /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BF2FF290000890094252C /* StatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		B16BF2EF28FFF6D70094252C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16BF2F228FFF6D70094252C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B16BF2F428FFF6D70094252C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16BF2FB28FFFB2E0094252C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B16BF2FD290000720094252C /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		B16BF2FF290000890094252C /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +64,9 @@
 		B16BF2E228FFF6D50094252C /* SpotifyFavs */ = {
 			isa = PBXGroup;
 			children = (
+				B16BF2FA28FFFAC80094252C /* ViewController */,
 				B16BF2E328FFF6D50094252C /* AppDelegate.swift */,
 				B16BF2E528FFF6D50094252C /* SceneDelegate.swift */,
-				B16BF2E728FFF6D50094252C /* ViewController.swift */,
 				B16BF2E928FFF6D50094252C /* Main.storyboard */,
 				B16BF2EF28FFF6D70094252C /* Assets.xcassets */,
 				B16BF2F128FFF6D70094252C /* LaunchScreen.storyboard */,
@@ -68,6 +74,17 @@
 				B16BF2EC28FFF6D50094252C /* SpotifyFavs.xcdatamodeld */,
 			);
 			path = SpotifyFavs;
+			sourceTree = "<group>";
+		};
+		B16BF2FA28FFFAC80094252C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B16BF2E728FFF6D50094252C /* ViewController.swift */,
+				B16BF2FB28FFFB2E0094252C /* HomeViewController.swift */,
+				B16BF2FD290000720094252C /* AccountViewController.swift */,
+				B16BF2FF290000890094252C /* StatsViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16BF2FC28FFFB2E0094252C /* HomeViewController.swift in Sources */,
 				B16BF2E828FFF6D50094252C /* ViewController.swift in Sources */,
+				B16BF2FE290000720094252C /* AccountViewController.swift in Sources */,
 				B16BF2E428FFF6D50094252C /* AppDelegate.swift in Sources */,
+				B16BF300290000890094252C /* StatsViewController.swift in Sources */,
 				B16BF2EE28FFF6D50094252C /* SpotifyFavs.xcdatamodeld in Sources */,
 				B16BF2E628FFF6D50094252C /* SceneDelegate.swift in Sources */,
 			);
